@@ -2,8 +2,6 @@ import React from 'react';
 import '../stylesheets/projectId.css'
 import {motion} from 'framer-motion'
 
-
-
 export function Projectelem(props){
   return(
     <div className='col--md-3'>

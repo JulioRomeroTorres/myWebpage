@@ -3,22 +3,3 @@
     top: 10px;
     right: 0;
 }
-.image-container{
-    max-width: 1000%;
-    max-height: 100%;
-    border-width: 0px;
-    border-radius: 70%;
-    border-style: solid;
-}
-
-.title-head{
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-    font-weight: 1000;
-}
-
-.text-head{
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-
-}
