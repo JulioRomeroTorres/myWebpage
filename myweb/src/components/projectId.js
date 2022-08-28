@@ -1,15 +1,21 @@
 import React from 'react';
 import '../stylesheets/projectId.css'
+import {motion} from 'framer-motion'
+
+
 
 export function Projectelem(props){
   return(
-    <div className='brick-container'>
-      <div className='image-container'>
+    <div className='col--md-3'>
+      <motion.div 
+      whileHover={{ scale: [null, 1.5, 1.3] }}
+      transition={{ duration: 0.8 }}
+      className='image-container'>
         <img className='image-project'
               src =  {require(`../images/${props.folder}/project${props.idproject}.png`)}
               alt = 'Image from project'
         />
-      </div>
+      </motion.div>
       <div className='text-container'>
         <p> {props.name} </p>
         <div className='buttons-cotainer'> 
