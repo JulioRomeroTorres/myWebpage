@@ -1,9 +1,13 @@
 import React from "react";
-//import '../stylesheets/headMenu.css'
+import '../stylesheets/headMenu.css'
+import { Route, Routes } from "react-router-dom";
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+//const Home = () : Element => <h1>Hola mundo</h1>
+
 
 export function Headmenu(props){
     return(
-        <div className="head-container">  
+        <div className='head-container'>  
             <button>
                 About Me
             </button>
@@ -15,7 +19,10 @@ export function Headmenu(props){
             </button>
             <h1>Hi, Mi name is Julio Cesar Romero Torres </h1>
             <h3> It is my first time as FullStack Developer</h3>
-            <img src = {require(`../images/others/personalPhoto.png`)} alt = 'My personal photo' />
+            <div className='image-container'>
+                <img src = {require(`../images/others/personalPhoto.png`)} alt = 'My personal photo' />
+            </div>
+            
         </div>
     );
 }

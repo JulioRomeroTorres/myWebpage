@@ -13,8 +13,13 @@ export function Projectelem(props){
       <div className='text-container'>
         <p> {props.name} </p>
         <div className='buttons-cotainer'> 
-          <button className='button-code'> Code </button>
-          <button className='button-video'> Video </button>
+          <a href='https://github.com/JulioRomeroTorres?tab=repositories'>
+            <button className='button-code'> Code </button>
+          </a>
+          <a href = 'https://github.com/JulioRomeroTorres?tab=repositories'>
+            <button className='button-video'> Video </button>
+          </a>
+          
         </div>
       </div>
     </div>        

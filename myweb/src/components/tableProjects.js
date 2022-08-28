@@ -1,12 +1,13 @@
 import React from 'react';
 import {Projectelem} from './projectId'
-import '../stylesheets/tableProjects.css'
+//import '../stylesheets/tableProjects.css'
 
 export function Tableproject(props){
   return(
-    <div className = 'table-container'>
+    <div className = 'container d -flex justify-content-center align-items-center h-100 '>
       <h2> Robotics Projects </h2>
       <div className='row'> 
+      
         <Projectelem
           name = 'Autonomous Drone'
           folder = 'robotics'
