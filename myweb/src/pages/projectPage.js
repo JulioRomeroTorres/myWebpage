@@ -5,6 +5,10 @@ export function Projectpage(props){
     return(
         <div className="container" >
             <div className="row">
+                <h1> Offset </h1>
+            </div>
+
+            <div className="row">
                 <Tableproject
                 title='Robotics Projects'
                 folder='robotics'

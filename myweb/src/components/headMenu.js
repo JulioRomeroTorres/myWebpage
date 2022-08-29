@@ -7,6 +7,7 @@ import {Router, Routes, Route, Link} from 'react-router-dom'
 
 export function Headmenu(props){
     return(
+        
         <div className='head-container'> 
             <Link to='/'>
                 <Button variant="outline-dark" size = 'sm' >About me</Button>{'  '}
