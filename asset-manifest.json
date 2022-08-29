@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/myWebpage/static/css/main.c72ef115.css",
-    "main.js": "/myWebpage/static/js/main.190f20ea.js",
+    "main.css": "/myWebpage/static/css/main.0c04107e.css",
+    "main.js": "/myWebpage/static/js/main.ef15ed66.js",
     "static/js/787.fb265414.chunk.js": "/myWebpage/static/js/787.fb265414.chunk.js",
     "static/media/project3.png": "/myWebpage/static/media/project3.0fb2e88021bcb613d746.png",
     "static/media/personalPhoto.png": "/myWebpage/static/media/personalPhoto.5c3f099b1ef889f0f89a.png",
     "static/media/project1.png": "/myWebpage/static/media/project1.c8e9580b2eb12e73070d.png",
     "static/media/project4.png": "/myWebpage/static/media/project4.34217db93ad3aeb1b941.png",
     "static/media/project2.png": "/myWebpage/static/media/project2.e88b7ff962dcf58e8cd6.png",
-    "static/media/aws.png": "/myWebpage/static/media/aws.51c3e3ab8c0ea2236967.png",
+    "static/media/skill4.png": "/myWebpage/static/media/skill4.2bc3312ff71884144532.png",
+    "static/media/skill1.png": "/myWebpage/static/media/skill1.51c3e3ab8c0ea2236967.png",
+    "static/media/skill5.png": "/myWebpage/static/media/skill5.4bcfbfe057138ad1a73b.png",
+    "static/media/skill10.png": "/myWebpage/static/media/skill10.d4ed97d718f07653ed9f.png",
+    "static/media/skill8.png": "/myWebpage/static/media/skill8.c853a9294cc281c90761.png",
+    "static/media/skill14.png": "/myWebpage/static/media/skill14.a50d3d937dd4920b5c27.png",
     "static/media/logo.svg": "/myWebpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/myWebpage/index.html",
-    "main.c72ef115.css.map": "/myWebpage/static/css/main.c72ef115.css.map",
-    "main.190f20ea.js.map": "/myWebpage/static/js/main.190f20ea.js.map",
+    "main.0c04107e.css.map": "/myWebpage/static/css/main.0c04107e.css.map",
+    "main.ef15ed66.js.map": "/myWebpage/static/js/main.ef15ed66.js.map",
     "787.fb265414.chunk.js.map": "/myWebpage/static/js/787.fb265414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c72ef115.css",
-    "static/js/main.190f20ea.js"
+    "static/css/main.0c04107e.css",
+    "static/js/main.ef15ed66.js"
   ]
 }
