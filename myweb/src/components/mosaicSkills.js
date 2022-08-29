@@ -17,6 +17,7 @@ const mosaicArray = [
     ]
 
 ];
+var arrDelay = [0,2,4,6];
 
 export function Mosaicimages(props){
     return(

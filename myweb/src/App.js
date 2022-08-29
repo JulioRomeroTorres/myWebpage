@@ -21,6 +21,12 @@ function App() {
         <Route path='/users/:id' element={<Userpage />} />
         <Route path='/skills' element={<Skills/>} />
         <Route path='/contactme' element={<Contactpage/>}/>
+        <Route path='/Drone' element={<Skills />}  />
+        <Route path='/IRMA' element={<Skills />}  />
+        <Route path='/realtimedetection' element={<Skills />}  />
+        <Route path='/ratitex' element={<Skills />}  />
+        <Route path='/hacktathonntt' element={<Skills />}  />
+        <Route path='/IBMcloud' element={<Skills />}  />
         <Route path='*' element={<Notfound />} />
       </Routes>
     </div>

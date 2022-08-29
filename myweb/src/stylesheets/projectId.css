@@ -1,16 +1,18 @@
 .brick-container{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-}
-.image-container{
-    width: 210px;
-    height: 210px;
-}
-.image-project{
     width: 200px;
     height: 200px;
-    margin: 10px;
+}
+.image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-project{
+    width: 100%;
+    height: 100%;
+    margin: 10px 10px 10px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,11 +23,36 @@
 }
 
 .text-container{
-    width: 150px;
-    height: 100px;
-    margin: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 10px 10px 10px 10px;
     font-size: 15px;
-    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family: Calibri, sans-serif;
     align-items: center;
-    
+    justify-content: center;
+    color:white
+}
+
+.button-video{
+    font-size: small;
+    border:3px none black;
+    border-radius:4px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+.button-code{
+    font-size: small;
+    border:3px node black;
+    border-radius:4px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+.buttons-container{
+    display: flex;
+    width: 100%;
 }

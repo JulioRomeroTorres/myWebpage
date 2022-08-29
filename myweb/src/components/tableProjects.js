@@ -1,23 +1,32 @@
 import React from 'react';
 import {Projectelem} from './projectId'
 import '../stylesheets/tableProjects.css'
+import { motion } from 'framer-motion';
 
 const roboticArray = [
   {
     idproject: 1,
     nameProject: 'Autonomous Drone',
+    directProject : '/Drone',
+    urclcode : 'https://github.com/JulioRomeroTorres/cameraDetection/tree/yolov4-tiny'
   },
   {
     idproject: 2,
-    nameProject: 'Path Plannig optimitation with Time Optimal Scaling',
+    nameProject: 'Trajectory planning for the autonomous movement of a robot',
+    directProject : '/IRMA',
+    urclcode : 'https://github.com/JulioRomeroTorres/cameraDetection/tree/yolov4-tiny'
   },
   {
     idproject: 3,
-    nameProject: 'Camera Detection',
+    nameProject: 'Real-Time Vehicle Detection',
+    directProject : '/realtimedetection',
+    urclcode : 'https://github.com/JulioRomeroTorres/cameraDetection/tree/yolov4-tiny'
   },
   {
     idproject: 4,
-    nameProject: 'Ratitex',
+    nameProject: 'RATITEX',
+    directProject : '/ratitex',
+    urclcode : 'https://github.com/JulioRomeroTorres/cameraDetection/tree/yolov4-tiny'
   }
 
 ];
@@ -25,7 +34,15 @@ const roboticArray = [
 const fullstackArray=[
   {
     idproject: 1,
-    nameProject: 'robotics'
+    nameProject: 'Automatic Virtual Financial Assistant',
+    directProject : '/hacktathonntt',
+    urclcode : 'https://github.com/JulioRomeroTorres/cameraDetection/tree/yolov4-tiny'
+  },
+  {
+    idproject: 2,
+    nameProject: 'Interface for remote control and monitoring of a SCADA system',
+    directProject:'/IBMcloud',
+    urclcode : 'https://github.com/JulioRomeroTorres/cameraDetection/tree/yolov4-tiny'
   }
 ]
 
@@ -42,8 +59,14 @@ export function Tableproject(props){
 
   return(
     //className in TableProject  container d -flex justify-content-center align-items-center h-100 
-    <div className = 'table-container'>
-      <h2>{props.title} </h2>
+    <motion.div 
+      animate={{
+        y: 15 
+      }} 
+      transition={{ ease: "easeOut", duration: 1 }}
+    
+    className = 'table-container'>
+      <h2 className='title-table'>{props.title} </h2>
       <div className='row'> 
         {
           isRobot ? roboticArray.map( elementArr => (
@@ -52,6 +75,8 @@ export function Tableproject(props){
                 name = {elementArr.nameProject}
                 folder = {folderName}
                 idproject = {elementArr.idproject}
+                urladdr = {elementArr.directProject}
+                urlcode = {elementArr.urclcode}
               />
             </div>
             )): fullstackArray.map( elementArr => (
@@ -60,12 +85,14 @@ export function Tableproject(props){
                   name = {elementArr.nameProject}
                   folder = {folderName}
                   idproject = {elementArr.idproject}
+                  urladdr = {elementArr.directProject}
+                  urlcode = {elementArr.urclcode}
                 />
               </div>
               ))
         }
       </div>
-    </div>
+    </motion.div>
   );
 
 }

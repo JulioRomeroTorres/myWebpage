@@ -1,10 +1,11 @@
 import React from 'react';
 import '../stylesheets/projectId.css'
 import {motion} from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 export function Projectelem(props){
   return(
-    <div className='col-md-3'>
+    <div className='container'>
       <motion.div 
       whileHover={{ scale: [null, 1.2, 1.1] }}
       transition={{ duration: 0.8 }}
@@ -15,15 +16,14 @@ export function Projectelem(props){
         />
       </motion.div>
       <div className='text-container'>
-        <p> {props.name} </p>
+        <p align='center'> {props.name} </p>
         <div className='buttons-cotainer'> 
-          <a href='https://github.com/JulioRomeroTorres?tab=repositories'>
+          <a  href={props.urlcode} target='_blank'>
             <button className='button-code'> Code </button>
           </a>
-          <a href = 'https://github.com/JulioRomeroTorres?tab=repositories'>
-            <button className='button-video'> Video </button>
-          </a>
-          
+          <Link to={props.urladdr}>
+            <button className='button-video'> View Project </button>
+          </Link>
         </div>
       </div>
     </div>        
