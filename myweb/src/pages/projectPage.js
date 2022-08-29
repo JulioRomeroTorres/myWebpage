@@ -7,11 +7,13 @@ export function Projectpage(props){
             <div className="row">
                 <Tableproject
                 title='Robotics Projects'
+                folder='robotics'
                 />
             </div>
             <div className="row">
                 <Tableproject
                 title='Software Developer Projects'
+                folder='developer'
                 />
             </div>
         </div>

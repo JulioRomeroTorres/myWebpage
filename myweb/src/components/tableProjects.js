@@ -5,22 +5,22 @@ import {Projectelem} from './projectId'
 const roboticArray = [
   {
     idproject: 1,
-    nameProject: 'robotics',
+    nameProject: 'Autonomous Drone',
     folder:'robotics'
   },
   {
-    idproject: 1,
-    nameProject: 'robotics',
+    idproject: 2,
+    nameProject: 'Path Plannig optimitation with Time Optimal Scaling',
     folder:'robotics'
   },
   {
-    idproject: 1,
-    nameProject: 'robotics',
+    idproject: 3,
+    nameProject: 'Camera Detection',
     folder:'robotics'
   },
   {
-    idproject: 1,
-    nameProject: 'robotics',
+    idproject: 4,
+    nameProject: 'Ratitex',
     folder:'robotics'
   }
 
@@ -30,51 +30,33 @@ const fullstackArray=[
   {
     idproject: 1,
     nameProject: 'robotics',
-    folder:'robotics'
+    folder:'developer'
   }
 ]
 
+const folderRobotic = 'robotics';
+const folderFullstack = 'developer'
+
 export function Tableproject(props){
+  
+  var folderName = props.folder;
   return(
     //className in TableProject  container d -flex justify-content-center align-items-center h-100 
     <div className = 'table-container'>
       <h2> {props.title} </h2>
       <div className='row'> 
-        <div className='col-md-3'>
-          <Projectelem
-              name = 'Autonomous Drone'
-              folder = 'robotics'
-              idproject = '1'
-            />
+        {
+          roboticArray.map( elementArr => (
+                    <div className='col-md-3' key={elementArr.idproject}> 
+                      <Projectelem
+                        name = {elementArr.nameProject}
+                        folder = {folderName}
+                        idproject = {elementArr.idproject}
+                      />
+                    </div>
 
-        </div>
-
-        <div className='col-md-3'>
-          <Projectelem
-              name = 'Path Plannig optimitation with Time Optimal Scaling'
-              folder = 'robotics'
-              idproject = '2'
-            />
-
-        </div>
-
-        <div className='col-md-3'>
-          <Projectelem
-              name = 'Camera Detection'
-              folder = 'robotics'
-              idproject = '3'
-            />
-
-        </div>
-
-        <div className='col-md-3'>
-          <Projectelem
-              name = 'Ratitex'
-              folder = 'robotics'
-              idproject = '4'
-            />
-
-        </div>
+          ))
+        }
       </div>
     </div>
   );
