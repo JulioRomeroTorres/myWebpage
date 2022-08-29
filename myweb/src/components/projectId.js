@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 export function Projectelem(props){
   return(
-    <div className='col--md-3'>
+    <div className='col-md-3'>
       <motion.div 
       whileHover={{ scale: [null, 1.2, 1.1] }}
       transition={{ duration: 0.8 }}
