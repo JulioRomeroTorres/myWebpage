@@ -5,7 +5,7 @@ export function Projectpage(props){
     return(
         <div className="container" >
             <div className="row">
-                <h1> Offset </h1>
+                <h1>  </h1>
             </div>
 
             <div className="row">

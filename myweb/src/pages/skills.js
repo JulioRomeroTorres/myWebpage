@@ -5,10 +5,10 @@ export function Skills(props){
     return(
         <div className="container">
             <div className="row">
-                <h1> O </h1>
+                <h1> En  </h1>
             </div>
             <h1>
-            My Skills
+                Loading ...
             </h1>
         </div>
     );
