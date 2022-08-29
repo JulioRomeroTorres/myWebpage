@@ -1,7 +1,7 @@
 import React from "react";
 import '../stylesheets/skills.css'
 import {motion} from 'framer-motion' 
-
+import Mosaicimages from "../components/mosaicSkills";
 
 export function Skills(props){
     return(
@@ -23,7 +23,10 @@ export function Skills(props){
                     </p>    
                 </motion.div>
                 <div className="images-container">
-                    <motion.h1> Loading ...</motion.h1>
+                    <Mosaicimages 
+                    folder='others'
+                    idproject = '1'
+                    />
                 </div>
             </div>
         </div>

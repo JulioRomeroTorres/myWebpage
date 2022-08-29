@@ -7,7 +7,7 @@ import {Headmenu} from './components/headMenu'
 import { Route, Routes } from "react-router-dom";
 import Notfound from './pages/notFound';
 import Userpage from './pages/userPage';
-import Skills from './pages/skills';
+import Skills from './pages/skillsPage';
 import Projectpage from './pages/projectPage';
 import Contactpage from './pages/contactPage';
 

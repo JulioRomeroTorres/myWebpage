@@ -1,0 +1,25 @@
+.contactme-container{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.image-test{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
