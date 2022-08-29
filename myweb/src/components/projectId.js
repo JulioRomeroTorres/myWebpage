@@ -6,7 +6,7 @@ export function Projectelem(props){
   return(
     <div className='col--md-3'>
       <motion.div 
-      whileHover={{ scale: [null, 1.5, 1.3] }}
+      whileHover={{ scale: [null, 1.2, 1.1] }}
       transition={{ duration: 0.8 }}
       className='image-container'>
         <img className='image-project'

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Projectelem} from './projectId'
-//import '../stylesheets/tableProjects.css'
+import '../stylesheets/tableProjects.css'
 
 const roboticArray = [
   {
@@ -43,7 +43,7 @@ export function Tableproject(props){
   return(
     //className in TableProject  container d -flex justify-content-center align-items-center h-100 
     <div className = 'table-container'>
-      <h2> {props.title} </h2>
+      <h2>{props.title} </h2>
       <div className='row'> 
         {
           isRobot ? roboticArray.map( elementArr => (
