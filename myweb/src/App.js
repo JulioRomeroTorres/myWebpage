@@ -5,6 +5,11 @@ import {Tableproject} from './components/tableProjects';
 import {Homepage} from './components/homePage';
 import {Headmenu} from './components/headMenu'
 import { Route, Routes } from "react-router-dom";
+import Notfound from './pages/notFound';
+import Userpage from './pages/userPage';
+import Skills from './pages/skills';
+import Projectpage from './pages/projectPage';
+import Contactpage from './pages/contactPage';
 
 function App() {
   return (
@@ -12,9 +17,11 @@ function App() {
       <Headmenu />
       <Routes>
         <Route path='/' element={<Homepage />} />
-      </Routes>
-      <Routes>
-        <Route path="/Projects" element={<Tableproject />} />
+        <Route path="/projects" element={<Projectpage />} />
+        <Route path='/users/:id' element={<Userpage />} />
+        <Route path='/skills' element={<Skills/>} />
+        <Route path='/contactme' element={<Contactpage/>}/>
+        <Route path='*' element={<Notfound />} />
       </Routes>
     </div>
   );

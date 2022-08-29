@@ -2,10 +2,43 @@ import React from 'react';
 import {Projectelem} from './projectId'
 //import '../stylesheets/tableProjects.css'
 
+const roboticArray = [
+  {
+    idproject: 1,
+    nameProject: 'robotics',
+    folder:'robotics'
+  },
+  {
+    idproject: 1,
+    nameProject: 'robotics',
+    folder:'robotics'
+  },
+  {
+    idproject: 1,
+    nameProject: 'robotics',
+    folder:'robotics'
+  },
+  {
+    idproject: 1,
+    nameProject: 'robotics',
+    folder:'robotics'
+  }
+
+];
+
+const fullstackArray=[
+  {
+    idproject: 1,
+    nameProject: 'robotics',
+    folder:'robotics'
+  }
+]
+
 export function Tableproject(props){
   return(
-    <div className = 'container d -flex justify-content-center align-items-center h-100 '>
-      <h2> Robotics Projects </h2>
+    //className in TableProject  container d -flex justify-content-center align-items-center h-100 
+    <div className = 'table-container'>
+      <h2> {props.title} </h2>
       <div className='row'> 
         <div className='col-md-3'>
           <Projectelem
@@ -47,5 +80,4 @@ export function Tableproject(props){
   );
 
 }
-
 export default Tableproject;

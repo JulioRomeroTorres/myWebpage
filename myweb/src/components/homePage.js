@@ -10,25 +10,25 @@ import {motion} from 'framer-motion'
 export function Homepage(props){
     return(
         <div className='container d-flex justify-content-center align-items-center h-100 '>  
-            
             <div className="md-col-2">
-                <motion.h1 animate={{
-                    y: 20,
+                <motion.h1 
+                animate={{
+                    y: 200,
                     color: '#fff' 
                 }} 
-                transition={{ ease: "easeOut", duration: 5 }}
+                transition={{ ease: "easeOut", duration: 3 }}
                 className="title-head" align ='left'> Hi, </motion.h1>
                 <motion.h1 animate={{
-                    y: 10,
+                    y: 200,
                     color: '#fff' 
                 }} 
-                transition={{ ease: "easeOut", duration: 5 }}
+                transition={{ ease: "easeOut", duration: 3 }}
                 className="title-head" align ='left'>I'm Julio Cesar Romero Torres </motion.h1>
                 <motion.p animate={{
-                    y: 10,
+                    y: 200,
                     color: '#fff' 
                 }} 
-                transition={{ ease: "easeOut", duration: 5 }}
+                transition={{ ease: "easeOut", duration: 3 }}
                 className="text-head" align ='left'>
                     Outstanding mechatronics engineering graduate with two years of experience developing hardware and software to
                     build robotic solutions based on embedded systems. Solid knowledge of programming, robotics, embedded systems,
