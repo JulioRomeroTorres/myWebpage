@@ -10,16 +10,24 @@ export function Headmenu(props){
         
         <div className='head-container'> 
             <Link to='/'>
-                <Button variant="outline-dark" size = 'sm' >About me</Button>{'  '}
+                <div className="container">
+                    <Button variant="outline-dark" size = 'sm' > About me </Button>{'  '}
+                </div>
             </Link>
             <Link to='/skills'>
-                <Button variant="outline-dark" size = 'sm' > My Skills  </Button> {'  '}
+                <div className="container">
+                    <Button variant="outline-dark" size = 'sm' > My Skills </Button>{'  '}
+                </div>
             </Link>
             <Link to='/projects'>
-                <Button variant="outline-dark" size = 'sm' >Projects</Button> {'  '}
+                <div className="container">
+                    <Button variant="outline-dark" size = 'sm' > Projects </Button>{'  '}
+                </div>
             </Link>
             <Link to='/contactme'>
-                <Button variant="outline-dark" size = 'sm' >Contact me</Button> {'  '}
+                <div className="container">
+                    <Button variant="outline-dark" size = 'sm' > Contact me </Button>{'  '}
+                </div>
             </Link>
             
         </div>

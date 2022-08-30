@@ -7,7 +7,10 @@ const mosaicArray = [
         { idproject: 1 },
         { idproject: 2 },
         { idproject: 3 },
-        { idproject: 4}
+        { idproject: 4 },
+        { idproject: 5 },
+        { idproject: 6 },
+
     ],
     [
         { idproject: 0 },
@@ -29,8 +32,8 @@ export function Mosaicimages(props){
                         mosaicArray[0].map( elementArr => (
                             <motion.div 
                                 animate = {{
-                                    scale : [1, 1.2, 1],
-                                    rotate : [0, 180, 0]
+                                    scale : [1, 1.3, 1.1],
+                                    rotate : [0, 90, 0]
                                 }}
                                 transition = {{
                                     duration: 2,
@@ -39,9 +42,9 @@ export function Mosaicimages(props){
                                     repeat: Infinity,
                                     repeatDelay: 2
                                 }}
-                                className='col-md-3' key={elementArr.idproject + 4*elementAux.idproject}> 
+                                className='col-md-2' key={elementArr.idproject + 6*elementAux.idproject}> 
                                     <img className='mosaic-element'
-                                    src =  {require(`../images/${props.folder}/skill${elementArr.idproject + 4*elementAux.idproject}.png`)}
+                                    src =  {require(`../images/${props.folder}/skill${elementArr.idproject + 6*elementAux.idproject}.png`)}
                                     alt = 'Image from project'
                                     />
                             </motion.div>))

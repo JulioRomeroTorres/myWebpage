@@ -35,19 +35,19 @@
 }
 
 .button-video{
-    font-size: small;
+    font-size: 15px;
     border:3px none black;
     border-radius:4px;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     color: white;
     margin: 5px;
 }
 
 .button-code{
-    font-size: small;
-    border:3px node black;
+    font-size: 15px;
+    border:3px none black;
     border-radius:4px;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     color: white;
     margin: 5px;
 }

@@ -59,21 +59,21 @@ export function Contactpage(props){
                         <IconCont 
                             url='https://github.com/JulioRomeroTorres'
                             icon = {faGithub}
-                            size = "2x"
+                            size = "3x"
                             color = '#000'
                         />
 
                         <IconCont 
                             url='https://www.linkedin.com/in/juliocesarromerotorres/'
                             icon = {faLinkedin}
-                            size = "2x"
+                            size = "3x"
                             color = '#3b93bd'
                         />
 
                         <IconCont 
                             url='mailto:jcromerot@uni.pe'
                             icon = {faEnvelope}
-                            size = "2x"
+                            size = "3x"
                             color = "#fff"
                         />  
                         
