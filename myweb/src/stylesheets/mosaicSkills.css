@@ -4,3 +4,7 @@
     background-color:rgba(0, 0, 0, 0.5);
     scale: 0.5;
 }
+.mosaic-container{
+    width: auto;
+    height: auto;
+}

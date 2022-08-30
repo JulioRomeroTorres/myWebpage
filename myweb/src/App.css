@@ -2,7 +2,7 @@
 .App{
     background: rgb(93,93,98);
     background: linear-gradient(90deg, rgba(93,93,98,1) 22%, rgba(109,112,113,1) 86%);
-    min-height: 100vh;
+    min-height: 125vh;
     display: flex;
     flex-wrap: wrap;
     /*align-items: center;*/

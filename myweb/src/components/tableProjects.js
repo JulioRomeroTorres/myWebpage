@@ -61,7 +61,7 @@ export function Tableproject(props){
     //className in TableProject  container d -flex justify-content-center align-items-center h-100 
     <motion.div 
       animate={{
-        y: 15 
+        y: 40 
       }} 
       transition={{ ease: "easeOut", duration: 1 }}
     
