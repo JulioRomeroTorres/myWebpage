@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myWebpage/static/css/main.2e297fc7.css",
-    "main.js": "/myWebpage/static/js/main.7278f93d.js",
+    "main.css": "/myWebpage/static/css/main.7ed818ad.css",
+    "main.js": "/myWebpage/static/js/main.1c3b4846.js",
     "static/js/787.fb265414.chunk.js": "/myWebpage/static/js/787.fb265414.chunk.js",
     "static/media/project3.png": "/myWebpage/static/media/project3.0fb2e88021bcb613d746.png",
     "static/media/personalPhoto.png": "/myWebpage/static/media/personalPhoto.5c3f099b1ef889f0f89a.png",
@@ -9,19 +9,17 @@
     "static/media/project4.png": "/myWebpage/static/media/project4.34217db93ad3aeb1b941.png",
     "static/media/project2.png": "/myWebpage/static/media/project2.3f74af8ad2df249bcb87.png",
     "static/media/skill4.png": "/myWebpage/static/media/skill4.2bc3312ff71884144532.png",
-    "static/media/skill1.png": "/myWebpage/static/media/skill1.51c3e3ab8c0ea2236967.png",
-    "static/media/skill5.png": "/myWebpage/static/media/skill5.4bcfbfe057138ad1a73b.png",
     "static/media/skill10.png": "/myWebpage/static/media/skill10.d4ed97d718f07653ed9f.png",
     "static/media/skill8.png": "/myWebpage/static/media/skill8.c853a9294cc281c90761.png",
     "static/media/skill14.png": "/myWebpage/static/media/skill14.a50d3d937dd4920b5c27.png",
     "static/media/logo.svg": "/myWebpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/myWebpage/index.html",
-    "main.2e297fc7.css.map": "/myWebpage/static/css/main.2e297fc7.css.map",
-    "main.7278f93d.js.map": "/myWebpage/static/js/main.7278f93d.js.map",
+    "main.7ed818ad.css.map": "/myWebpage/static/css/main.7ed818ad.css.map",
+    "main.1c3b4846.js.map": "/myWebpage/static/js/main.1c3b4846.js.map",
     "787.fb265414.chunk.js.map": "/myWebpage/static/js/787.fb265414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e297fc7.css",
-    "static/js/main.7278f93d.js"
+    "static/css/main.7ed818ad.css",
+    "static/js/main.1c3b4846.js"
   ]
 }
