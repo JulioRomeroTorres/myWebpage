@@ -18,8 +18,7 @@
     justify-content: center;
     border:3px none black;
     border-radius:22px;
-    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273);
-    transition: all 0.7s linear;
+
 }
 
 .text-container{
@@ -56,3 +55,12 @@
     display: flex;
     width: 100%;
 }
+
+/*.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273);
+    transition: all 0.7s linear;
+}
+.card{
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .4;
+}*/

@@ -15,12 +15,15 @@
     justify-content: center;
 }
 .images-container{
-    height: 100%;
-    width: 40%;
+    height: 80%;
+    width: 50%;
     /*display: flex;*/
     font-family: 'Courier New', Courier, monospace;
+    margin: 10px 10px 10px 10px;
     display: flex;
     color: white;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    scale: 1;
 }

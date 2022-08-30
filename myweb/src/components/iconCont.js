@@ -13,7 +13,7 @@ export function IconCont(props){
                 <div className="icon-container">
                     <FontAwesomeIcon 
                     icon= {props.icon}
-                    size="2x"
+                    size="1.5x"
                     />
                 </div>
             </a>

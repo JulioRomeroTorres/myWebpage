@@ -3,7 +3,7 @@ import Tableproject from "../components/tableProjects";
 
 export function Projectpage(props){
     return(
-        <div className="container" >
+        <div className="container">
             
             <div className="row">
                 <Tableproject
